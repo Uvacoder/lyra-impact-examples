@@ -8,7 +8,7 @@ export default defineComponent({
 
   data: () => ({
     lyra: null,
-    isLoading: false,
+    isLoading: true,
     searchPokemon: [],
     search: "",
   }),
@@ -76,7 +76,7 @@ export default defineComponent({
               <img :src="p.img" />
 
               <div>
-                <h1 class="text-lg">{{ p.name }}</h1>
+                <h2 class="text-lg">{{ p.name }}</h2>
                 <p>Type: {{ p.type.join(", ") }}</p>
               </div>
             </div>
