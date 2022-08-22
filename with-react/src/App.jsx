@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import impact from "@mateonunez/lyra-impact/dist/node/esm";
+import impact from "@mateonunez/lyra-impact";
 import { search as lyraSearch } from "@nearform/lyra";
 
 function App() {

@@ -1,6 +1,6 @@
 <script>
 import { defineComponent } from "vue";
-import impact from "@mateonunez/lyra-impact/dist/node/esm";
+import impact from "@mateonunez/lyra-impact";
 import { search } from "@nearform/lyra";
 
 export default defineComponent({

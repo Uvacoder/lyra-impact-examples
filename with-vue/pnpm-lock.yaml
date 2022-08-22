@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@mateonunez/lyra-impact': 0.0.0-alpha.1
+  '@mateonunez/lyra-impact': 0.0.1-beta.0
   '@nearform/lyra': ^0.0.5
   '@vitejs/plugin-vue': ^3.0.3
   unocss: ^0.45.9
@@ -9,7 +9,7 @@ specifiers:
   vue: ^3.2.37
 
 dependencies:
-  '@mateonunez/lyra-impact': 0.0.0-alpha.1
+  '@mateonunez/lyra-impact': 0.0.1-beta.0
   '@nearform/lyra': 0.0.5
   vue: 3.2.37
 
@@ -117,8 +117,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.14
     dev: true
 
-  /@mateonunez/lyra-impact/0.0.0-alpha.1:
-    resolution: {integrity: sha512-WEQRDFrNUGlHe/CQMTp4jRms9EmZd8KmfL1TwxZeFoozzUdS+yoGihenj5llhTsRi+HgZGSXoY72TkhhOFTbNw==}
+  /@mateonunez/lyra-impact/0.0.1-beta.0:
+    resolution: {integrity: sha512-o10XlUd4SKwwnkwDp085S9bgH4Q5sfbZ0RzmLEFr5BImVR+fz+jm7BPuOHR1BSX3FEK4V81RBXM5DfNAmqUL6A==}
     dependencies:
       '@nearform/lyra': 0.0.5
     dev: false
