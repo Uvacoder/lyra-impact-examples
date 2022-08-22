@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@mateonunez/lyra-impact': 0.0.1-beta.0
+  '@mateonunez/lyra-impact': 0.0.1-beta.1
   '@nearform/lyra': ^0.0.5
   '@types/react': ^18.0.17
   '@types/react-dom': ^18.0.6
@@ -12,7 +12,7 @@ specifiers:
   vite: ^3.0.7
 
 dependencies:
-  '@mateonunez/lyra-impact': 0.0.1-beta.0
+  '@mateonunez/lyra-impact': 0.0.1-beta.1
   '@nearform/lyra': 0.0.5
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -368,8 +368,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.14
     dev: true
 
-  /@mateonunez/lyra-impact/0.0.1-beta.0:
-    resolution: {integrity: sha512-o10XlUd4SKwwnkwDp085S9bgH4Q5sfbZ0RzmLEFr5BImVR+fz+jm7BPuOHR1BSX3FEK4V81RBXM5DfNAmqUL6A==}
+  /@mateonunez/lyra-impact/0.0.1-beta.1:
+    resolution: {integrity: sha512-XLPkB98Go94Ic4I3kZ5Dc/pJXooL96P7X7Ib+Gcrz44Y4VPc0qyE8Mt8jxr25AT0AkWOp24hgJ6ec90YDFZsVg==}
     dependencies:
       '@nearform/lyra': 0.0.5
     dev: false

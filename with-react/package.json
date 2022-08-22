@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@mateonunez/lyra-impact": "0.0.1-beta.0",
+    "@mateonunez/lyra-impact": "0.0.1-beta.1",
     "@nearform/lyra": "^0.0.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
