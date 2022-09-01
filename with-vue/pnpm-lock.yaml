@@ -1,16 +1,16 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@mateonunez/lyra-impact': 0.0.1-beta.1
-  '@nearform/lyra': ^0.0.5
+  '@lyrasearch/lyra': ^0.2.0
+  '@mateonunez/lyra-impact': 0.0.1-beta.5
   '@vitejs/plugin-vue': ^3.0.3
   unocss: ^0.45.9
   vite: ^3.0.7
   vue: ^3.2.37
 
 dependencies:
-  '@mateonunez/lyra-impact': 0.0.1-beta.1
-  '@nearform/lyra': 0.0.5
+  '@lyrasearch/lyra': 0.2.0
+  '@mateonunez/lyra-impact': 0.0.1-beta.5
   vue: 3.2.37
 
 devDependencies:
@@ -117,14 +117,15 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.14
     dev: true
 
-  /@mateonunez/lyra-impact/0.0.1-beta.1:
-    resolution: {integrity: sha512-XLPkB98Go94Ic4I3kZ5Dc/pJXooL96P7X7Ib+Gcrz44Y4VPc0qyE8Mt8jxr25AT0AkWOp24hgJ6ec90YDFZsVg==}
-    dependencies:
-      '@nearform/lyra': 0.0.5
+  /@lyrasearch/lyra/0.2.0:
+    resolution: {integrity: sha512-m+LmqhNYZNjUCpFKS2MzrdEyKJfNfHW5HxXi0wyKktnieu8bAtnhqXG7HG1svCaSrkudYuR2SktYBRs6ix4YcA==}
     dev: false
 
-  /@nearform/lyra/0.0.5:
-    resolution: {integrity: sha512-VQ9JbcxFripYOoC4Ixw6q9B4eIpaw6lBXyoRCvt/qdqPt2Q2gLh0xp9mvvBzZWdC201nH9iUDNhXIgMv55BMMg==}
+  /@mateonunez/lyra-impact/0.0.1-beta.5:
+    resolution: {integrity: sha512-mQ/o2aB2e8gfY+t+kT/NfRqF2Wj5AcpfhmkMK8MFPEZ7BjHik2vQinOUhOR/vq1SLQ/OFsDfe0DMd284FXGhCg==}
+    dependencies:
+      '@lyrasearch/lyra': 0.2.0
+      phin: 3.6.1
     dev: false
 
   /@nodelib/fs.scandir/2.1.5:
@@ -409,6 +410,10 @@ packages:
     resolution: {integrity: sha512-rM7E2ygtMkJqD9c7WnFU6fruFcN3xe4FM5yUmgxhZzIKJk4uHl9U/fhwdajGFQbQuv43FAUo1Fe8gX/oIKDeSA==}
     engines: {node: '>=8'}
     dev: true
+
+  /centra/2.5.0:
+    resolution: {integrity: sha512-CnSF1HD8vOOgNbE4P2fZEhdhfAohvpcF3DSdSvEcSHDAZvr+Xfw73isT8SXJJc3VMBqSwjXhr29/ikHUgFcypg==}
+    dev: false
 
   /chokidar/3.5.3:
     resolution: {integrity: sha512-Dr3sfKRP6oTcjf2JmUmFJfeVMvXBdegxB0iVQ5eb2V10uFJUCAS8OByZdVAyVb8xXNz3GjjTgj9kLWsZTqE6kw==}
@@ -958,6 +963,13 @@ packages:
   /perfect-debounce/0.1.3:
     resolution: {integrity: sha512-NOT9AcKiDGpnV/HBhI22Str++XWcErO/bALvHCuhv33owZW/CjH8KAFLZDCmu3727sihe0wTxpDhyGc6M8qacQ==}
     dev: true
+
+  /phin/3.6.1:
+    resolution: {integrity: sha512-ubcFKk2jRr2WUJEh+QpMkCgOQansJDuIShKbsjpejeyI/aOMLrAf0TaisbMjKwTq9CsypFFJqUaN9ZSRmBJLPw==}
+    engines: {node: '>= 8'}
+    dependencies:
+      centra: 2.5.0
+    dev: false
 
   /picocolors/1.0.0:
     resolution: {integrity: sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==}
