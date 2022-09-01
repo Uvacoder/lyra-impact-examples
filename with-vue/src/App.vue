@@ -1,7 +1,7 @@
 <script>
 import { defineComponent } from "vue";
 import impact from "@mateonunez/lyra-impact";
-import { search } from "@nearform/lyra";
+import { search } from "@lyrasearch/lyra";
 
 export default defineComponent({
   name: "App",

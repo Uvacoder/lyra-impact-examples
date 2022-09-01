@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import impact from "@mateonunez/lyra-impact";
-import { search as lyraSearch } from "@nearform/lyra";
+import { search as lyraSearch } from "@lyrasearch/lyra";
 
 function App() {
   const [lyra, setLyra] = useState(null);
