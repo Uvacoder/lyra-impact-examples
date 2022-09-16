@@ -9,8 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@lyrasearch/lyra": "^0.2.0",
-    "@mateonunez/lyra-impact": "0.0.1-beta.5",
+    "@lyrasearch/lyra": "^0.2.4",
+    "@mateonunez/lyra-impact": "0.0.5",
     "vue": "^3.2.37"
   },
   "devDependencies": {
