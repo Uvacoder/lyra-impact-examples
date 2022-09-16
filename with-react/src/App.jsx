@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import impact from "@mateonunez/lyra-impact";
+import { impact } from "@mateonunez/lyra-impact";
 import { search as lyraSearch } from "@lyrasearch/lyra";
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
 
   useEffect(() => {
     impact(
-      "https://raw.githubusercontent.com/nearform/lyra/main/packages/examples/with-react/public/pokedex.json",
+      "https://raw.githubusercontent.com/LyraSearch/lyra/main/examples/with-vue/public/pokedex.json",
       {
         property: "pokemon",
       }

@@ -1,6 +1,6 @@
 <script>
 import { defineComponent } from "vue";
-import impact from "@mateonunez/lyra-impact";
+import { impact } from "@mateonunez/lyra-impact";
 import { search } from "@lyrasearch/lyra";
 
 export default defineComponent({
@@ -17,7 +17,7 @@ export default defineComponent({
 
   mounted() {
     impact(
-      "https://raw.githubusercontent.com/nearform/lyra/main/packages/examples/with-react/public/pokedex.json",
+      "https://raw.githubusercontent.com/LyraSearch/lyra/main/examples/with-vue/public/pokedex.json",
       {
         property: "pokemon",
       }
