@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@lyrasearch/lyra": "^0.2.4",
-    "@mateonunez/lyra-impact": "0.0.5",
+    "@mateonunez/lyra-impact": "0.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -21,5 +21,8 @@
     "rollup-plugin-node-polyfills": "^0.2.1",
     "unocss": "^0.45.9",
     "vite": "^3.0.7"
+  },
+  "publishConfig": {
+    "registry": "http://localhost:4873"
   }
 }

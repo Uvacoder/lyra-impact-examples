@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@lyrasearch/lyra': ^0.2.4
-  '@mateonunez/lyra-impact': 0.0.5
+  '@mateonunez/lyra-impact': 0.2.2
   '@vitejs/plugin-vue': ^3.0.3
   rollup-plugin-node-polyfills: ^0.2.1
   unocss: ^0.45.9
@@ -11,7 +11,7 @@ specifiers:
 
 dependencies:
   '@lyrasearch/lyra': 0.2.4
-  '@mateonunez/lyra-impact': 0.0.5
+  '@mateonunez/lyra-impact': 0.2.2
   vue: 3.2.37
 
 devDependencies:
@@ -123,10 +123,12 @@ packages:
     resolution: {integrity: sha512-yTWq0wFv+DylA+2FNGnUck11u0BBvQI+TMv00OZ+Q3pldbZiy3Ps05rHvPgwbGQDtHGQ1nri8ZHz55enZ8vqNQ==}
     dev: false
 
-  /@mateonunez/lyra-impact/0.0.5:
-    resolution: {integrity: sha512-OTZmivT5VD4GSk+S6swKuoQiymHZ8aKMeEfA8/TKiNj9o6UUWR5FgVCvTdRDjHKvmpAs1X8bFoy8Rgrq1PKa3g==}
+  /@mateonunez/lyra-impact/0.2.2:
+    resolution: {integrity: sha512-MWWnTMoOOR5Uq8lKQp+93BzMfxGlqBK6pnFflUF3DrHZswp6ow+bEXQvtcqUK/CVv9y0ZqJtk1UGIttt5Lc12g==}
     dependencies:
       '@lyrasearch/lyra': 0.2.4
+      http-status: 1.5.3
+      undici: 5.10.0
     dev: false
 
   /@nodelib/fs.scandir/2.1.5:
@@ -780,6 +782,11 @@ packages:
       function-bind: 1.1.1
     dev: true
 
+  /http-status/1.5.3:
+    resolution: {integrity: sha512-jCClqdnnwigYslmtfb28vPplOgoiZ0siP2Z8C5Ua+3UKbx410v+c+jT+jh1bbI4TvcEySuX0vd/CfFZFbDkJeQ==}
+    engines: {node: '>= 0.4.0'}
+    dev: false
+
   /human-signals/2.1.0:
     resolution: {integrity: sha512-B4FFZ6q/T2jhhksgkbEW3HBvWIfDW85snkQgawt07S7J5QXTk6BkNV+0yAeZrM5QpMAdYlocGoljn0sJ/WQkFw==}
     engines: {node: '>=10.17.0'}
@@ -1114,6 +1121,11 @@ packages:
       defu: 6.1.0
       jiti: 1.14.0
     dev: true
+
+  /undici/5.10.0:
+    resolution: {integrity: sha512-c8HsD3IbwmjjbLvoZuRI26TZic+TSEe8FPMLLOkN1AfYRhdjnKBU6yL+IwcSCbdZiX4e5t0lfMDLDCqj4Sq70g==}
+    engines: {node: '>=12.18'}
+    dev: false
 
   /undici/5.9.1:
     resolution: {integrity: sha512-6fB3a+SNnWEm4CJbgo0/CWR8RGcOCQP68SF4X0mxtYTq2VNN8T88NYrWVBAeSX+zb7bny2dx2iYhP3XHi00omg==}
