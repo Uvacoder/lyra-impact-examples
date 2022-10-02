@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@lyrasearch/lyra": "^0.2.4",
-    "@mateonunez/lyra-impact": "0.2.2",
+    "@mateonunez/lyra-impact": "0.3.0",
     "vue": "^3.2.37"
   },
   "devDependencies": {
